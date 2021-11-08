@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">neighbors</string>
+    <string name="str_img">Image</string>
+    <string name="str_nom">Nom</string>
+    <string name="str_phone">Telephone</string>
+    <string name="str_website">Web Site</string>
+    <string name="str_adress">Adresse</string>
+    <string name="str_about">A propos de Moi</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add">Add neighbor</string>
+    <string name="liste">List neighbor</string>
+    <string name="detail">Detail neighbor</string>
+    <string name="favorit">favorit</string>
+    <string name="app_name">app</string>
+    <string name="str_img">Picture</string>
+    <string name="str_nom">Name</string>
+    <string name="str_phone">Phone</string>
+    <string name="str_website">Web Site</string>
+    <string name="str_adress">Address</string>
+    <string name="str_about">About me</string>
+    <string name="persiste">persiste</string>
+    <string name="nepersiste">ne persiste</string>
+</resources>

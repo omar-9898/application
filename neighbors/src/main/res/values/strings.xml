@@ -1,0 +1,16 @@
+<resources>
+    <string name="add">Nouveau voisin</string>
+    <string name="liste">Liste des voisins</string>
+    <string name="detail">detail de voisin</string>
+    <string name="favorit">favorit</string>
+    <string name="app_name">app</string>
+    <string name="str_img">Image</string>
+    <string name="str_nom">Nom</string>
+    <string name="str_phone">Telephone</string>
+    <string name="str_website">Site Web</string>
+    <string name="str_adress">Adresse</string>
+    <string name="str_about">A propos de Moi</string>
+    <string name="persiste">persiste</string>
+
+    <string name="nepersiste">ne persiste</string>
+</resources>

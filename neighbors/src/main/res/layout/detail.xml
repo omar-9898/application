@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    >
+
+
+    <ImageView
+        android:id="@+id/avatar_detail"
+        android:layout_width="411dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_baseline_person_outline_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Name_detail"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_detail"
+        android:layout_width="match_parent"
+        android:text="2"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:ignore="MissingConstraints"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name_detail"
+        android:id="@+id/phone_detail"
+        android:text="3"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:ignore="MissingConstraints"/>
+
+
+
+    <TextView
+        android:id="@+id/adress_detail"
+        app:layout_constraintTop_toBottomOf="@+id/phone_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+        android:id="@+id/web_detail"
+        app:layout_constraintTop_toBottomOf="@+id/adress_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:ignore="MissingConstraints"
+        />
+
+
+    <TextView
+        android:id="@+id/about_detail"
+        android:text="5"
+        app:layout_constraintTop_toBottomOf="@+id/web_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints"/>
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/favorit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/favorit"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="20dp"
+        android:layout_gravity="end"
+        app:layout_constraintTop_toBottomOf="@+id/about_detail"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:text="BACK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/favorit"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
